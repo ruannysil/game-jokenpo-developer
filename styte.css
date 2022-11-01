@@ -1,0 +1,179 @@
+* {
+    font-family: Helvetica neue, Helvetica, Arial;
+    font-weight: 400;
+    cursor: default;
+}
+body {
+    background: #000000;
+}
+
+#title {
+    text-align: center;
+    color: #2d3436;
+}
+.stone {
+    color: #ff7904;
+}
+.scissors {
+    color: #7e75ff;
+}
+
+.paper {
+    color: aquamarine;
+}
+#placar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+#player, #computer {
+    position: relative;
+    color: #fff;
+    flex-grow: 1;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#player h2, #computer h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+}
+
+#player {
+    background: #7e75ff;
+}
+
+#player-name, #computer-name {
+    font-size: 24px;
+}
+
+#computer-name {
+    text-align: right;
+}
+
+#player-points, #computer-points {
+    position: absolute;
+    top: 8px;
+    font-size: 52px;
+}
+
+#player-points {
+    right: 20px;
+}
+
+#player #player-choice, #computer #computer-choice {
+    margin: 30px 0 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+#player  #player-choice li, #computer #computer-choice li {
+    display: inline;
+    padding: 0 15px;
+}
+
+#player #player-choice a, #computer #computer-choice a {
+    opacity: .2;
+}
+
+#player #player-choice a:hover,
+#player #player-choice a.selected, #computer #computer-choice a.selected {
+    opacity: 1; 
+
+}
+
+#player #player-choice img, #computer #computer-choice img {
+    max-width: 80px;
+    
+}
+
+#versus {
+    font-size: 80px;
+    padding: 0 40px;
+}
+.first {
+    color: #db3434;
+}
+.second {
+    color: #7e75ff;
+}
+
+#computer {
+    background: #db3434;
+}
+
+#computer-name {
+    font-size: 22px;
+}
+#message {
+    background: #02bcff;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 80px 0;
+    padding: 20px;
+}
+
+@media (min-width: 320px) {
+    #title {
+        font-size: 25px;
+        margin: 40px 0 50px 0;
+    }
+
+    #versus {
+        font-size: 15px;
+        padding: 0 20px;
+    }
+    #player, #computer {
+        position: relative;
+        color: #fff;
+        flex-grow: 1;
+        border-radius: 5px;
+        padding: 7px 0;
+    }
+    #play-name, #computer-name {
+        font-size: 14px;
+    }
+    #player-points, #computer-points {
+        position: absolute;
+        top: 8px;
+        font-size: 14px;
+    }
+    #player #player-choice img, #computer #computer-choice img {
+        max-width: 47px;
+    }
+    #message {
+        margin: 8em 0 0;
+    }
+}
+
+
+@media (max-width: 607px) {
+    #versus {
+        font-size: 15px;
+        padding: 0 20px;
+    }
+    #jogador, #computer {
+        position: relative;
+        color: #fff;
+        flex-grow: 1;
+        border-radius: 5px;
+        padding: 7px 0;
+    }
+    #player-name {
+        font-size: 16px;
+    }
+    #player-points, #computer-points {
+        position: absolute;
+        top: 3px;
+        font-size: 24px;
+        margin-left: 4px;
+    }
+    #player #player-choice img, #computer #computer-choice img {
+        max-width: 47px;
+    }
+}
