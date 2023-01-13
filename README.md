@@ -11,7 +11,7 @@ Projeto game-jokenpo-developer.
 </p>
 
 <p align="center">
-  <img alt="License" src="https://user-images.githubusercontent.com/84647446/212434460-b5d621ff-9852-4de9-b430-dc6c3aabb830.jpg" width="500px">
+  <img alt="License" src="https://user-images.githubusercontent.com/84647446/212434460-b5d621ff-9852-4de9-b430-dc6c3aabb830.jpg" width="700px">
 </p>
 
 <br>
